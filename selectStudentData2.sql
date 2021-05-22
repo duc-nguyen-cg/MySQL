@@ -8,6 +8,7 @@ where StudentName like 'h%';
 select * from class
 where StartDate like '%-12-%';
 
+
 #display subject whose credit between 3 and 5
 select * from subject
 where Credit between 3 and 5;
