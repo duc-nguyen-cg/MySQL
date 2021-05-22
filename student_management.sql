@@ -2,7 +2,7 @@ create database student_management;
 
 use student_management;
 
-create table Class (
+create table Class (class
                        ClassID int not null auto_increment,
                        ClassName varchar(60) not null,
                        StartDate datetime not null,
