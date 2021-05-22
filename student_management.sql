@@ -37,3 +37,4 @@ create table Mark (
     foreign key (SubID) references Subject(SubID),
     foreign key (StudentID) references Student(StudentID)
 );
+
