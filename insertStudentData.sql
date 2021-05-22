@@ -10,6 +10,7 @@ create table Class (
                        primary key (ClassID)
 );
 
+
 create table Student (
     StudentID int not null auto_increment primary key,
     StudentName varchar(60) not null,
